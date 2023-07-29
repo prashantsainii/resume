@@ -63,8 +63,8 @@
 %\address{123 Pleasant Lane \\ City, State 12345} % Your secondary addess (optional)
 
 \address{
-\href{https://github.com/prashantsainii}{\raisebox{0.0\height}{\footsize \faGithub}\ {Github }}
-\href{https://www.linkedin.com/in/prashantsaini}{\raisebox{0.0\height}{\footsize \faLinkedin}\ {LinkedIn }}
+\href{https://github.com/prashantsainii}{\raisebox{0.0\height}{\footsize \faGithub}\ {\underline{Github} }}
+\href{https://www.linkedin.com/in/prashantsaini}{\raisebox{0.0\height}{\footsize \faLinkedin}\ {\underline{LinkedIn} }}
 \faEnvelope{ prashantsaini852@gmail.com}  
 \faPhone{ +91 7011876494 }}
 
@@ -122,12 +122,12 @@ Soft Skills : \ & {\normalfont{Problem Solving, Presentation}}\\
 {\bf Digital Agency}
 \\ \normalfont{- A web app to boost the online presence of an organization, with the authentication feature for its users.
 \\- Tools \& Technologies - \em {Nextjs, Reactjs, MongoDb, Javascript}}
-\\- \href{https://github.com/prashantsainii/digital-agency}{\raisebox{0.0\height}{}\ {Github Link }}
+\\- \href{https://github.com/prashantsainii/digital-agency}{\raisebox{0.0\height}{}\ {\underline{Github Link} }}
 
 {\bf Dojo Blog}
 \\- \normalfont{A blog app that allows users to create, view and delete blog posts
 \\- Tools \& Technologies - \em { Reactjs, Javascript}}
-\\- \href{https://github.com/prashantsainii/dojo-blog}{\raisebox{0.0\height}{}\ {Github Link }}
+\\- \href{https://github.com/prashantsainii/dojo-blog}{\raisebox{0.0\height}{}\ {\underline{Github Link} } }
 
 
 
@@ -144,11 +144,11 @@ Soft Skills : \ & {\normalfont{Problem Solving, Presentation}}\\
 
 {\bf Data Structures \& Algorithms } \hfill {\em Coding Ninjas} 
 \\ \normalfont{- Learned about various data structures and algorithms and problem solving techniques}
-\\- \href{https://drive.google.com/file/d/1UbpqO0V-hoDcvJHe5vj7BVaWhGFh7hYh/view}{\raisebox{0.0\height}{}\ {Certificate}}
+\\- \href{https://drive.google.com/file/d/1UbpqO0V-hoDcvJHe5vj7BVaWhGFh7hYh/view}{\raisebox{0.0\height}{}\ {\underline{Certificate}}}
 
 {\bf ASSET Program } \hfill {\em \textbf{KIET SDFS}} 
 \\ \normalfont{- Aptitude, Soft skills and Technical Training}
-\\- \href{https://drive.google.com/file/d/1Uoj7XKDETqDcpXbuSs-O3as81nI-l67E/view}{\raisebox{0.0\height}{}\ {Certificate}}
+\\- \href{https://drive.google.com/file/d/1Uoj7XKDETqDcpXbuSs-O3as81nI-l67E/view}{\raisebox{0.0\height}{}\ {\underline{Certificate} }}
 
 
 % \\- xx
