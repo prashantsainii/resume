@@ -101,10 +101,10 @@
 
 \begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
 Languages : \ & {\normalfont{C++, HTML, CSS, Javascript}} \\
-Frameworks : \ & {\normalfont{React Js, Next Js}}\\
-Databases : \ & {\normalfont{MongoDb, mySql}}\\
-Web Dev Tools : \ & {\normalfont{Node js, VS Code, Git, Github}}\\
-Relevant Coursework : \ & {\normalfont{DSA, OOPS, DBMS, Operating System}}\\
+Frameworks : \ & {\normalfont{\textbf{React Js, Next Js}}}\\
+Databases : \ & {\normalfont{\textbf{MongoDb}, mySql}}\\
+Web Dev Tools : \ & {\normalfont{\textbf{Node Js}, VS Code, Git, Github}}\\
+Relevant Coursework : \ & {\normalfont{\textbf{DSA}, OOPS, DBMS, Operating System}}\\
 Soft Skills : \ & {\normalfont{Problem Solving, Presentation}}\\
 
 \end{tabular}
@@ -121,12 +121,12 @@ Soft Skills : \ & {\normalfont{Problem Solving, Presentation}}\\
 
 {\bf Digital Agency}
 \\ \normalfont{- A web app to boost the online presence of an organization, with the authentication feature for its users.
-\\- Tools \& Technologies - \em {Nextjs, Reactjs, MongoDb, Javascript}}
+\\- Tools \& Technologies - \em {{\textbf{NextJs, ReactJs, MongoDb, Javascript}}}}
 \\- \href{https://github.com/prashantsainii/digital-agency}{\raisebox{0.0\height}{}\ {\underline{Github Link} }}
 
 {\bf Dojo Blog}
 \\- \normalfont{A blog app that allows users to create, view and delete blog posts
-\\- Tools \& Technologies - \em { Reactjs, Javascript}}
+\\- Tools \& Technologies - \em { \textbf{Reactjs, Javascript}}}
 \\- \href{https://github.com/prashantsainii/dojo-blog}{\raisebox{0.0\height}{}\ {\underline{Github Link} } }
 
 
