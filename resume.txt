@@ -100,10 +100,11 @@
 \begin{rSection}{Technical Skills}
 
 \begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
-Languages : \ & {\normalfont{C++, HTML, CSS, Javascript}} \\
-Frameworks : \ & {\normalfont{\textbf{React Js, Next Js}}}\\
+Languages : \ & {\normalfont{C++, GO}} \\
+% Frameworks : \ & {\normalfont{\textbf{React Js, Next Js}}}\\
+Linux : \ & {\normalfont{File system, Scripting}}\\
 Databases : \ & {\normalfont{\textbf{MongoDb}, mySql}}\\
-Web Dev Tools : \ & {\normalfont{\textbf{Node Js}, VS Code, Git, Github}}\\
+Web Dev Tools : \ & {\normalfont{VS Code, Git, Github}}\\
 Relevant Coursework : \ & {\normalfont{\textbf{DSA}, OOPS, DBMS, Operating System}}\\
 Soft Skills : \ & {\normalfont{Problem Solving, Presentation}}\\
 
@@ -119,10 +120,9 @@ Soft Skills : \ & {\normalfont{Problem Solving, Presentation}}\\
 %-----------------------------------------------------------------------------------------------
 \begin{rSection}{Projects}
 
-{\bf Digital Agency}
-\\ \normalfont{- A web app to boost the online presence of an organization, with the authentication feature for its users.
-\\- Tools \& Technologies - \em {{\textbf{NextJs, ReactJs, MongoDb, Javascript}}}}
-\\- \href{https://github.com/prashantsainii/digital-agency}{\raisebox{0.0\height}{}\ {\underline{Github Link} }}
+{\bf GO-API}
+\\ \normalfont{- RESTful APIs using Go (Golang), with a strong focus on JSON data handling to perform Create, Read, Update, and Delete (CRUD) operations - \em {{\textbf{Golang, JSON, Gin}}}}
+\\- \href{https://github.com/prashantsainii/go-api}{\raisebox{0.0\height}{}\ {\underline{Github Link} }}
 
 {\bf Dojo Blog}
 \\- \normalfont{A blog app that allows users to create, view and delete blog posts
