@@ -100,11 +100,10 @@
 \begin{rSection}{Technical Skills}
 
 \begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
-Languages : \ & {\normalfont{C++, GO}} \\
-% Frameworks : \ & {\normalfont{\textbf{React Js, Next Js}}}\\
-Linux : \ & {\normalfont{File system, Scripting}}\\
+Languages : \ & {\normalfont{C++, HTML, CSS, Javascript}} \\
+Frameworks : \ & {\normalfont{\textbf{React Js, Next Js}}}\\
 Databases : \ & {\normalfont{\textbf{MongoDb}, mySql}}\\
-Web Dev Tools : \ & {\normalfont{VS Code, Git, Github}}\\
+Web Dev Tools : \ & {\normalfont{\textbf{Node Js}, VS Code, Git, Github}}\\
 Relevant Coursework : \ & {\normalfont{\textbf{DSA}, OOPS, DBMS, Operating System}}\\
 Soft Skills : \ & {\normalfont{Problem Solving, Presentation}}\\
 
@@ -120,9 +119,15 @@ Soft Skills : \ & {\normalfont{Problem Solving, Presentation}}\\
 %-----------------------------------------------------------------------------------------------
 \begin{rSection}{Projects}
 
-{\bf GO-API}
-\\ \normalfont{- RESTful APIs using Go (Golang), with a strong focus on JSON data handling to perform Create, Read, Update, and Delete (CRUD) operations - \em {{\textbf{Golang, JSON, Gin}}}}
-\\- \href{https://github.com/prashantsainii/go-api}{\raisebox{0.0\height}{}\ {\underline{Github Link} }}
+{\bf Digital Agency}
+\\ \normalfont{- A web app to boost the online presence of an organization, with the authentication feature for its users.
+\\- Tools \& Technologies - \em {{\textbf{NextJs, ReactJs, MongoDb, Javascript}}}}
+\\- \href{https://github.com/prashantsainii/digital-agency}{\raisebox{0.0\height}{}\ {\underline{Github Link} }}
+
+{\bf Realtime Chat App}
+\\ \normalfont{- Solution for modern communication needs. Whether used for casual conversations, team collaboration, or private discussions, the application provides a reliable and real-time platform for users to connect and interact.
+\\- Tools \& Technologies - \em {{\textbf{NodeJs, SocketIo, Javascript}}}}
+\\- \href{https://github.com/prashantsainii/socketio-chat}{\raisebox{0.0\height}{}\ {\underline{Github Link} }}
 
 {\bf Dojo Blog}
 \\- \normalfont{A blog app that allows users to create, view and delete blog posts
@@ -161,14 +166,14 @@ Soft Skills : \ & {\normalfont{Problem Solving, Presentation}}\\
 
 
 \end{rSection}
-\begin{rSection}{Intrests}
-\normalfont{
-- Problem Solving\\
-- Coding\\
-- Software Development\\
-}
+% \begin{rSection}{Intrests}
+% \normalfont{
+% - Problem Solving\\
+% - Coding\\
+% - Software Development\\
+% }
 
-\end{rSection}
+% \end{rSection}
 
 %	EXAMPLE SECTION
 %----------------------------------------------------------------------------------------
