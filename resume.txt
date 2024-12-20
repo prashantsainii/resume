@@ -1,110 +1,316 @@
-\documentclass{resume} % Use the custom resume.cls style
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Deedy - One Page Two Column Resume
+% LaTeX Template
+% Version 1.2 (16/9/2014)
+%
+% Original author:
+% Debarghya Das (http://debarghyadas.com)
+%
+% Original repository:
+% https://github.com/deedydas/Deedy-Resume
+%
+% IMPORTANT: THIS TEMPLATE NEEDS TO BE COMPILED WITH XeLaTeX
+%
+% This template uses several fonts not included with Windows/Linux by
+% default. If you get compilation errors saying a font is missing, find the line
+% on which the font is used and either change it to a font included with your
+% operating system or comment the line out to use the default font.
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 
+% TODO:
+% 1. Integrate biber/bibtex for article citation under publications.
+% 2. Figure out a smoother way for the document to flow onto the next page.
+% 3. Add styling information for a "Projects/Hacks" section.
+% 4. Add location/address information
+% 5. Merge OpenFont and MacFonts as a single sty with options.
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% CHANGELOG:
+% v1.1:
+% 1. Fixed several compilation bugs with \renewcommand
+% 2. Got Open-source fonts (Windows/Linux support)
+% 3. Added Last Updated
+% 4. Move Title styling into .sty
+% 5. Commented .sty file.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Known Issues:
+% 1. Overflows onto second page if any column's contents are more than the
+% vertical limit
+% 2. Hacky space on the first bullet point on the second column.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\usepackage[left=0.4 in,top=0.6in,right=0.4 in,bottom=0.4in]{geometry} % Document margins
-\newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}} 
-\newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
-\name{Prashant Saini} % Your name
-% You can merge both of these into a single line, if you do not have a website.
-\address{+91-9354340428 \\ Bangalore, Karnataka} 
-\address{\href{mailto:contact@faangpath.com}{prashantsaini.gen@gmail.com} \\ \href{https://www.linkedin.com/in/prashant-saini-659b64288/}{LinkedIn} \\ \href{https://github.com/prashantsainii}{Github}}  %
 
+\documentclass[]{deedy-resume-openfont}
+\usepackage{fancyhdr}
+ 
+\pagestyle{fancy}
+\fancyhf{}
+ 
 \begin{document}
 
-%----------------------------------------------------------------------------------------
-%	OBJECTIVE
-%----------------------------------------------------------------------------------------
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     LAST UPDATED DATE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% \lastupdated
 
-%----------------------------------------------------------------------------------------
-%	EDUCATION SECTION
-%----------------------------------------------------------------------------------------
-\begin{rSection}{EXPERIENCE}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     TITLE NAME
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\namesection{Prashant}{Saini}{ \urlstyle{same} \href{https://www.linkedin.com/in/prashantsaini/}{linkedin.com/prashantsaini}\\
+ +91-9354340428 | \href{mailto:prashantsaini.gen@gmail.com}{prashantsaini.gen@gmail.com}
+}
 
-\textbf{Software Engineer} \hfill Mar 2024 - Present\\
-Capgemini Technology Services \hfill \textit{Bangalore, Karnataka}
- \begin{itemize}
-    \itemsep -3pt {} 
-     \item\textbf{API Testing}
-     \item Expert in API testing with proficiency in Postman, Rest Assured, and REST. Skilled in designing and executing test cases, ensuring seamless integration and functionality. Experienced in both manual and automated testing methodologies.
-    \item\textbf{L1 Certified}
-    \item Trained on various skills such as  SQL, Core Java, Agile methodology, Git version control, Web basics and API testing.
- \end{itemize}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN ONE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{minipage}[t]{0.33\textwidth} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EDUCATION
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Education} 
+
+\subsection{KIET Ghaziabad}
+\descript{B.Tech}
+\location{ Percentage: 82.5}
+\location{2019 - 2023 | UP}
+
+\sectionsep
+\subsection{St. Paul's Academy}
+\descript{Intermediate/+2(ICSE)}
+\location{ Percentage: 80.4}
+\location{ 2018 - 2019 | Ghaziabad, UP}
+\sectionsep
+
+\sectionsep
+\subsection{St. Paul's Academy}
+\descript{High School (ICSE)}
+\location{ Percentage: 89.5}
+\location{ 2016 - 2017 | Ghaziabad, UP}
+\sectionsep
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     LINKS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Links} 
+% Facebook:// \href{https://facebook/dd}{\bf dd} \\
+Github:// \href{https://github.com/deedydas}{\bf deedydas} \\
+LinkedIn://  \href{https://www.linkedin.com/in/debarghyadas}{\bf debarghyadas} \\
+% YouTube://  \href{https://www.youtube.com/user/DeedyDash007}{\bf DeedyDash007} \\
+Twitter://  \href{https://twitter.com/debarghya_das}{\bf @debarghya\_das} \\
+\vspace{3mm}
+
+% Quora://  \href{https://www.quora.com/Debarghya-Das}{\bf Debarghya-Das}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     SKILLS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\section{Skills}
+\textbullet{} Java \textbullet{} C++ \textbullet{} SQL \\
+\textbullet{} MySQL \textbullet{} MongoDB\\
+\textbullet{} Docker \textbullet{} Git \\
+\textbullet{} Spring Framework \\
+\textbullet{} Spring Boot \textbullet{} Microservices \\
+\textbullet{} Agile \textbullet{} HTML \textbullet{}CSS 
+\sectionsep
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     COURSEWORK
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Coursework}
+\textbullet{} Java Spring Framework 6 with Spring Boot 3, Udemy\\
+\textbullet{} Data Structures and Algorithms\\ in C++, Coding Ninjas \\
+\textbullet{} Complete Oracle SQL certification course, Udemy\\
+\textbullet{} Introduction to Cloud Computing on AWS, Udemy\\
+\textbullet{} OOPS - Object Oriented Programming Concepts \\
+\textbullet{} DBMS - Database Management System \\
+\textbullet{} Operating System - OS
+\sectionsep
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    %ACHIEVEMENTS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% \section{Achievements}
+% \begin{tabular}{rll}
+% 2017	     & AIR 12000 & JEE Mains\\
+% 2021	     & Top 75 percent & Leetcode\\
+% 2021         & 2 badges & Leetcode
+% \end{tabular}
+% \sectionsep
  
-\textbf{Certified Skill Development Intern} \hfill Dec 2023 - Feb 2024\\
-Cognizant Technology Solutions \hfill \textit{Chennai, Tamil Nadu}
- \begin{itemize}
-    \itemsep -3pt {} 
-     \item\textbf{Sitecore Developer}
-     \item Contributed as a Sitecore Developer within the DE/DX business unit at Cognizant, collaborating on the development of dynamic web solutions. Leveraged expertise in Sitecore CMS and C{\#} programming to deliver high-quality, scalable applications. 
- 
- \end{itemize}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+        %SOFT SKILLS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    
+\section{Soft Skills}
+\textbullet{} Team-Lead \textbullet{} Teamwork \\
+\textbullet{} Persistence \textbullet{} Goal oriented \\
+\textbullet{} Good Communication \\
+\textbullet{} Fast Learner \\
+\textbullet{} Time management
+\sectionsep
 
-\end{rSection}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     HOBBIES
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-
-%----------------------------------------------------------------------------------------
-%	WORK EXPERIENCE SECTION
-%----------------------------------------------------------------------------------------
-\begin{rSection}{PROJECTS}
-\vspace{-1.25em}
-\item \textbf{Digital Agency:} {A web app to boost the online presence of an organization, with the authentication feature for its users using NextJS and MongoDb. \href{https://github.com/prashantsainii/digital-agency}{(Github Link)}}
-
-\item \textbf{Sketchbook:} {Led the development of an online sketchbook app. Utilized a combination of front-end technologies React and Redux for state management alongside back-end frameworks like Node.js}
-\href{https://github.com/prashantsainii/sketchbook}{(Github Link)}}
-
-\item \textbf{The Dojo Blog:} {Used React.js to create a dynamic blog interface, facilitating easy updates and edits for a seamless user experience.}
-\href{https://github.com/prashantsainii/dojo-blog}{(Github Link)}}
-\item \textbf{Go-Mongo-API} {Developed a project leveraging Golang to construct a robust API. Integrated MongoDB as the database for efficient data storage and retrieval.}
-\href{https://github.com/prashantsainii/fiber-REST-api}{(Github Link)}}
-
-\end{rSection} 
-
-
-\begin{rSection}{Education}
-
-{\bf Bachelors of Technology}, KIET Group of Institutions \hfill {2019 - 2023}\\
-CGPA: 8.25
-
-{\bf Intermediate}, St. Paul's Academy \hfill {2018 - 2019}\\
-Percentage: 80\%
-
-{\bf Matriculation}, St. Paul's Academy \hfill {2016 - 2017}\\
-Percentage: 89\%
-%Minor in Linguistics \smallskip \\
-%Member of Eta Kappa Nu \\
-%Member of Upsilon Pi Epsilon \\
-
-
-\end{rSection}
-
-%----------------------------------------------------------------------------------------
-% TECHINICAL STRENGTHS	
-%----------------------------------------------------------------------------------------
-\begin{rSection}{SKILLS}
-
-\begin{tabular}{ @{} >{\bfseries}l @{\hspace{8ex}} l }
-Technical Skills: & C++, DSA, ReactJS, NodeJS, MySQL, HTML, CSS, Javascript\\
-Computer Science Fundamentals: & Operating System, OOPS, DBMS
-\\
-
-Web Dev Tools: & VS Code, Git, Github, Eclipse\\
-
-Soft Skills: & Communication, Teamwork, Adaptability, Resilience, Leadership\\
-\end{tabular}\\
-\end{rSection}
+% \section{Hobbies}
+% Playing volleyball\\
+% Reading books\\
+% Sketching
+% \sectionsep
 
 
 
-%----------------------------------------------------------------------------------------
-% \begin{rSection}{Extra-Curricular Activities} 
-% \begin{itemize}
-%     \item Honored with an \textbf{academic excellence award} as one of the college's \textbf{top 25 }students.
-%     \item Had my answer sheet on Moodle (an online learning platform) to assist other students in their learning.
-%     \item Secured \textbf{2nd position} in a Zonal-level volleyball tournament sponsored by AKTU.
-%     \item Served as Captain of the Girls' Volleyball Team, collaborated with the committee to plan and execute sports events and activities.
-% \end{itemize}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN TWO
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\end{minipage} 
+\hfill
+\begin{minipage}[t]{0.66\textwidth} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EXPERIENCE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Work Experience}
+\runsubsection{Capgemini Technology Services, Bangalore}\\
+\descript{Software Engineer}
+\location{Mar 24 - Present | Bangalore, KA}
+\sectionsep
+\sectionsep
+\begin{tightemize}
+\item Skilled in optimizing application performance through proactive monitoring, data analysis, and root cause identification using SAP APM. 
+\item Expertise in system monitoring, real-time alerts, and capacity planning to enhance application reliability and efficiency. Proven ability to customize and integrate SAP APM with other systems, automate performance reporting, and establish best practices. 
+\item Strong collaborator with cross-functional teams to resolve performance issues and deliver user training and support.
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Cognizant Technology Solutions, Chennai}\\
+\descript{SE Intern}
+\location{Dec 23 - Feb 23 | Chennai, TN}
+\sectionsep
+\begin{tightemize}
+\item  Contributed to the DRYiCE Autonomics project by managing over 1,000 endpoints with BigFix. Generated 50+ PowerShell scripts to automate processes and enhanced SQL queries, boosting data analysis speed by 30\%.
+\item Streamlined TCP/IP routing protocols, leading to a 30\% increase in data packet delivery efficiency, while configuring firewalls with IPSec to safeguard against external threats, protecting sensitive customer information.
+\end{tightemize}
+\sectionsep
 
 
-% \end{rSection}
+\sectionsep
 
-%----------------------------------------------------------------------------------------
-\end{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     PROJECTS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Projects}
+\runsubsection{EazyBank Backend Application}\\
+\location{ \urlstyle{same} \href{https://github.com/prashantsainii/spring-security}{Project link} }
+\begin{tightemize}
+\item Built an e-commerce price tracker using Next.js, employing web
+scraping for price collection, utilizing cron jobs for regular updates and an email notification system. Resulted in a
+40\%  increase in price accuracy
+\item Technologies: NextJs, MongoDB, HTML, CSS.
+\end{tightemize}
+\sectionsep
+
+\runsubsection{ Student Management API}
+
+\location{ \urlstyle{same} \href{https://github.com/prashantsainii/spring-rest-api}{Project link} }
+\begin{tightemize}
+\item  Crafted a secure user authentication system with Golang, MongoDB, and Gin, using JWT for more robust security and Postman for API testing.
+\item Technologies: Golang, MongoDb, Gin Framework, Postman.
+\end{tightemize}
+\sectionsep
+
+
+\runsubsection{ Fiber-REST-API: }
+
+\location{ \urlstyle{same} \href{https://github.com/prashantsainii/fiber-REST-api}{Project link} }
+\begin{tightemize}
+\item Engineered a project leveraging Golang to construct a robust API. Integrated MongoDB as the
+database for efficient data storage and retrieval by 70\%.
+\item Technologies: Golang, MongoDb, REST API, Postman.
+\end{tightemize}
+\sectionsep
+
+
+% \runsubsection{Analyzing International Debt Statistics}
+% \descript{| \urlstyle{same} \href{https://github.com/Ali-207/Analyze-International-Debt-Statistics}{Code} }
+% \location{Oct 2020 – Nov 2020 | Self Project
+% | SQL, Jupyter Notebook}
+% \begin{tightemize}
+% \item Analyzed international debt data collected by World Bank for \textbf{124 distinct countries}.
+% \item It was inferred that the country with highest debt was \textbf{China with total debt of 2.85 trillion USD}.
+% \item Data source: Datacamp website. 
+
+% \end{tightemize}
+% \sectionsep
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     INTERNSHIP
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+    
+        
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     VOLUNTEER EXPERIENCE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Achievements}
+\sectionsep
+    %\resumeSubHeadingListStart
+            \begin{tightemize}
+                \item \textbf{Hackathon Runner-up:} Secured 2nd prize in Hackathon held at Capgemini Bluebolt.
+                 \item Recognized for contributing to the continuous learning culture with 100+ hours of self-learning at Coding Ninjas.
+                \end{tightemize}
+        \sectionsep
+        
+
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% %     PUBLICATIONS
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% \section{Publications} 
+% \renewcommand\refname{\vskip -1.5em} % Couldn't get this working from the .cls file
+% \bibliographystyle{abbrv}
+% \bibliography{publications}
+% \nocite{*}
+
+
+\end{minipage} 
+\end{document}  \documentclass[]{article}
+
+
