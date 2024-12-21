@@ -223,7 +223,7 @@ Leetcode:// \href{https://leetcode.com/u/Prashant_Saini/}{\bf Prashant\_Saini}
 
 \runsubsection{Cognizant Technology Solutions, Chennai}\\
 \descript{SE Intern}
-\location{Dec 23 - Feb 23 | Chennai, TN}
+\location{Dec 23 - Feb 24 | Chennai, TN}
 \sectionsep
 \begin{tightemize}
 \item Contributed as a Sitecore Developer within the DE/DX business unit at Cognizant, collaborating on the development of adaptive web solutions. 
@@ -323,5 +323,3 @@ Leetcode:// \href{https://leetcode.com/u/Prashant_Saini/}{\bf Prashant\_Saini}
 
 \end{minipage} 
 \end{document}  \documentclass[]{article}
-
-
