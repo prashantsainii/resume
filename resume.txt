@@ -90,7 +90,7 @@
 
 \sectionsep
 \subsection{St. Paul's Academy}
-\descript{Intermediate/+2(ICSE)}
+\descript{Intermediate/+2 (ICSE)}
 \location{ Percentage: 80.4}
 \location{ 2018 - 2019 | Ghaziabad, UP}
 \sectionsep
@@ -104,26 +104,23 @@
 
 
 
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     LINKS
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Links} 
-% Facebook:// \href{https://facebook/dd}{\bf dd} \\
-Github:// \href{https://github.com/deedydas}{\bf deedydas} \\
-LinkedIn://  \href{https://www.linkedin.com/in/debarghyadas}{\bf debarghyadas} \\
-% YouTube://  \href{https://www.youtube.com/user/DeedyDash007}{\bf DeedyDash007} \\
-Twitter://  \href{https://twitter.com/debarghya_das}{\bf @debarghya\_das} \\
+Github:// \href{https://github.com/prashantsainii}{\bf prashantsainii} \\
+LinkedIn://  \href{https://www.linkedin.com/in/prashantsaini/}{\bf prashantsaini} \\
+Twitter://  \href{https://x.com/Prashant_Sainii}{\bf @Prashant\_Sainii} \\
+Leetcode:// \href{https://leetcode.com/u/Prashant_Saini/}{\bf Prashant\_Saini}
+
 \vspace{3mm}
 
-% Quora://  \href{https://www.quora.com/Debarghya-Das}{\bf Debarghya-Das}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     SKILLS
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
 
 \section{Skills}
 \textbullet{} Java \textbullet{} C++ \textbullet{} SQL \\
@@ -133,6 +130,7 @@ Twitter://  \href{https://twitter.com/debarghya_das}{\bf @debarghya\_das} \\
 \textbullet{} Spring Boot \textbullet{} Microservices \\
 \textbullet{} Agile \textbullet{} HTML \textbullet{}CSS 
 \sectionsep
+
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -173,6 +171,8 @@ Twitter://  \href{https://twitter.com/debarghya_das}{\bf @debarghya\_das} \\
 \textbullet{} Time management
 \sectionsep
 
+
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     HOBBIES
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -182,7 +182,6 @@ Twitter://  \href{https://twitter.com/debarghya_das}{\bf @debarghya\_das} \\
 % Reading books\\
 % Sketching
 % \sectionsep
-
 
 
 
@@ -196,6 +195,8 @@ Twitter://  \href{https://twitter.com/debarghya_das}{\bf @debarghya\_das} \\
 \hfill
 \begin{minipage}[t]{0.66\textwidth} 
 
+
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     EXPERIENCE
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -207,9 +208,16 @@ Twitter://  \href{https://twitter.com/debarghya_das}{\bf @debarghya\_das} \\
 \sectionsep
 \sectionsep
 \begin{tightemize}
-\item Skilled in optimizing application performance through proactive monitoring, data analysis, and root cause identification using SAP APM. 
-\item Expertise in system monitoring, real-time alerts, and capacity planning to enhance application reliability and efficiency. Proven ability to customize and integrate SAP APM with other systems, automate performance reporting, and establish best practices. 
-\item Strong collaborator with cross-functional teams to resolve performance issues and deliver user training and support.
+\item Developed and executed automated test scripts for ECU (Electronic Control Unit) software using \textbf{UFT} (Unified Functional Testing) tool to deliver test cases with automotive standards and functionality requirements.
+\item Collaborating with cross-functional teams to validate software updates, optimize testing processes and deliver the requirements.
+\item Leveraging \textbf{Jira} to streamline test management processes, including organizing 150+ test cases, tracking defects, and managing test execution workflows.
+\item Strong understanding of automotive communication protocols (CAN, LIN, FlexRay)
+
+% \item Debugging and analyzing test failures to identify root causes 
+% \item Using Jira as a test management tool for tracking test cases, reporting defects, and managing test cycles efficiently.
+% \item Skilled in optimizing application performance through proactive monitoring, data analysis, and root cause identification using UFT. 
+% \item Expertise in system monitoring, real-time alerts, and capacity planning to enhance application reliability and efficiency. Proven ability to customize and integrate SAP APM with other systems, automate performance reporting, and establish best practices. 
+% \item Strong collaborator with cross-functional teams to resolve performance issues and deliver the requirements
 \end{tightemize}
 \sectionsep
 
@@ -218,13 +226,14 @@ Twitter://  \href{https://twitter.com/debarghya_das}{\bf @debarghya\_das} \\
 \location{Dec 23 - Feb 23 | Chennai, TN}
 \sectionsep
 \begin{tightemize}
-\item  Contributed to the DRYiCE Autonomics project by managing over 1,000 endpoints with BigFix. Generated 50+ PowerShell scripts to automate processes and enhanced SQL queries, boosting data analysis speed by 30\%.
-\item Streamlined TCP/IP routing protocols, leading to a 30\% increase in data packet delivery efficiency, while configuring firewalls with IPSec to safeguard against external threats, protecting sensitive customer information.
+\item Contributed as a Sitecore Developer within the DE/DX business unit at Cognizant, collaborating on the development of adaptive web solutions. 
+
+\item  Utilized advanced knowledge of Sitecore CMS and C\# programming to design, develop, and implement high-quality applications, boosting performance speed by 30\%.
+% \item  Contributed to the DRYiCE Autonomics project by managing over 1,000 endpoints with BigFix. Generated 50+ PowerShell scripts to automate processes and enhanced SQL queries, boosting data analysis speed by 30\%.
+% \item Streamlined TCP/IP routing protocols, leading to a 30\% increase in data packet delivery efficiency, while configuring firewalls with IPSec to safeguard against external threats, protecting sensitive customer information.
 \end{tightemize}
 \sectionsep
 
-
-\sectionsep
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -232,35 +241,35 @@ Twitter://  \href{https://twitter.com/debarghya_das}{\bf @debarghya\_das} \\
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Projects}
+
 \runsubsection{EazyBank Backend Application}\\
-\location{ \urlstyle{same} \href{https://github.com/prashantsainii/spring-security}{Project link} }
+\location{ \urlstyle{same} \href{https://github.com/prashantsainii/spring-security}{Project link}}
 \begin{tightemize}
-\item Built an e-commerce price tracker using Next.js, employing web
-scraping for price collection, utilizing cron jobs for regular updates and an email notification system. Resulted in a
-40\%  increase in price accuracy
-\item Technologies: NextJs, MongoDB, HTML, CSS.
+\item Built a secure banking application implementing authentication and authorization mechanisms using \textbf{JWT} and \textbf{OAuth2}.
+\item Implemented secure password management using PasswordEncoders with advanced encoding, encryption, and hashing techniques while mitigating security vulnerabilities like CSRF (Cross-Site Request Forgery) and CORS (Cross-Origin Resource Sharing) to ensure robust application protection.
+\item \textbf{Technologies: Spring Security, MySQL, Docker, Postman, Angular}
 \end{tightemize}
 \sectionsep
 
-\runsubsection{ Student Management API}
-
-\location{ \urlstyle{same} \href{https://github.com/prashantsainii/spring-rest-api}{Project link} }
+\runsubsection{ Student Management API} \\
+\location{ \urlstyle{same} \href{https://github.com/prashantsainii/spring-rest-api}{Project link}}
 \begin{tightemize}
-\item  Crafted a secure user authentication system with Golang, MongoDB, and Gin, using JWT for more robust security and Postman for API testing.
-\item Technologies: Golang, MongoDb, Gin Framework, Postman.
+\item  Engineered a RESTful API for managing student records, offering seamless CRUD (Create, Read, Update, Delete) operations.
+\item Utilized MySQL database with JPA for efficient data persistence and retrieval.
+\item \textbf{Technologies: Spring Boot, MySQL, Docker, Postman}
 \end{tightemize}
 \sectionsep
 
 
-\runsubsection{ Fiber-REST-API: }
+% \runsubsection{ Fiber-REST-API: }
 
-\location{ \urlstyle{same} \href{https://github.com/prashantsainii/fiber-REST-api}{Project link} }
-\begin{tightemize}
-\item Engineered a project leveraging Golang to construct a robust API. Integrated MongoDB as the
-database for efficient data storage and retrieval by 70\%.
-\item Technologies: Golang, MongoDb, REST API, Postman.
-\end{tightemize}
-\sectionsep
+% \location{ \urlstyle{same} \href{https://github.com/prashantsainii/fiber-REST-api}{Project link} }
+% \begin{tightemize}
+% \item Engineered a project leveraging Golang to construct a robust API. Integrated MongoDB as the
+% database for efficient data storage and retrieval by 70\%.
+% \item Technologies: Golang, MongoDb, REST API, Postman.
+% \end{tightemize}
+% \sectionsep
 
 
 % \runsubsection{Analyzing International Debt Statistics}
@@ -293,8 +302,10 @@ database for efficient data storage and retrieval by 70\%.
 \sectionsep
     %\resumeSubHeadingListStart
             \begin{tightemize}
-                \item \textbf{Hackathon Runner-up:} Secured 2nd prize in Hackathon held at Capgemini Bluebolt.
-                 \item Recognized for contributing to the continuous learning culture with 100+ hours of self-learning at Coding Ninjas.
+                \item \textbf{Hackathon Runner-up:} Secured 2nd position in coding competition at Capgemini Degreed.
+                \item \textbf{Achieved 100-day} streak badge on LeetCode, refining algorithmic thinking and data structure proficiency through diverse problem sets that enhanced overall technical skills in software development.
+                 \item Recognized for contributing to the continuous learning culture with \textbf{100+} hours of self-learning at Coding Ninjas.
+                  
                 \end{tightemize}
         \sectionsep
         
